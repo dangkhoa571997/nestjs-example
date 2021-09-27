@@ -9,8 +9,18 @@ jobs:
 
     if: github.actor == 'dependabot[bot]'
     steps:
-      - name: 'auto merge'
+      - name: 'Wait for status checks'
+        id: waitforstatuschecks
+        uses: WyriHaximus/github-action-wait-for-status@v1.2.0
+        with:
+          ignoreActions: worker,WIP
+          checkInterval: 300
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 'Auto merge'
         uses: actions/github-script@v5
+        if: steps.waitforstatuschecks.outputs.status == 'success'
         with:
           github-token: ${{github.token}}
           script: |

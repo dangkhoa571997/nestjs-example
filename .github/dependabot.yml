@@ -9,7 +9,7 @@ updates:
     directory: '/' # Location of package manifests
     schedule:
       interval: 'weekly'
-      day: 'monday'
+      day: 'tuesday'
       time: '09:00'
       timezone: 'Asia/Ho_Chi_Minh'
     target-branch: 'main'
@@ -17,5 +17,5 @@ updates:
     assignees:
       - 'dangkhoa571997'
     labels:
-      - 'NPM dependencies'
+      - 'enhancement'
 

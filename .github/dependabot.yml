@@ -8,14 +8,14 @@ updates:
   - package-ecosystem: 'npm' # See documentation for possible values
     directory: '/' # Location of package manifests
     schedule:
-      interval: 'weekly'
-      day: 'monday'
-      time: '09:00'
-      timezone: 'Asia/Ho_Chi_Minh'
+      interval: 'daily'
+      # day: 'monday'
+      # time: '09:00'
+      # timezone: 'Asia/Ho_Chi_Minh'
     target-branch: 'main'
     # Add assignees
     assignees:
-      - 'dangkhoa571997'
+      - 'bot'
     labels:
       - 'NPM dependencies'
 

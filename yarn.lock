@@ -2404,9 +2404,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.4.17:
-  version "1.4.70"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.70.tgz#b389047a844ccc84bd185f480f52d2b6306a4cfd"
-  integrity sha512-joSEu0IwP/rOY8mHcQ6J2MEm5GgsvVcrNDSGg2wQiV0epjsq6pNvRk4UA2nqV8aK0PPL+Z1Z/uD73bG8swzroA==
+  version "1.4.71"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.71.tgz#17056914465da0890ce00351a3b946fd4cd51ff6"
+  integrity sha512-Hk61vXXKRb2cd3znPE9F+2pLWdIOmP7GjiTj45y6L3W/lO+hSnUSUhq+6lEaERWBdZOHbk2s3YV5c9xVl3boVw==
 
 emittery@^0.7.1:
   version "0.7.2"
@@ -4372,9 +4372,9 @@ mimic-fn@^2.1.0:
   integrity sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==
 
 minimatch@^3.0.4:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.1.1.tgz#879ad447200773912898b46cd516a7abbb5e50b0"
-  integrity sha512-reLxBcKUPNBnc/sVtAbxgRVFSegoGeLaSjmphNhcwcolhYLRgtJscn5mRl6YRZNQv40Y7P6JM2YhSIsbL9OB5A==
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.1.2.tgz#19cd194bfd3e428f049a70817c038d89ab4be35b"
+  integrity sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==
   dependencies:
     brace-expansion "^1.1.7"
 
